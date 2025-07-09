@@ -1,0 +1,133 @@
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display img{
+    height: 15em;
+    padding: 1.5em;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.display img:hover{
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.display img:active{
+    transform: scale(0.9);
+}
+
+.buttonDisplay .double{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(153, 153, 153, .497);
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-right: 25px;
+    width: 200px;
+    line-height: .5;
+}
+
+.buttonDisplay .double h3{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.buttonDisplay .double p{
+    margin-bottom: 15px;
+}
+
+.buttonDisplay .double button{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: .3em 1em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    color: #ffffffde;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.buttonDisplay .plus5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(153, 153, 153, .497);
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-right: 25px;
+    width: 200px;
+    line-height: .5;
+}
+
+.buttonDisplay .plus5 h3{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.buttonDisplay .plus5 p{
+    margin-bottom: 15px;
+}
+
+.buttonDisplay .plus5 button{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: .3em 1em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    color: #ffffffde;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.buttonDisplay .plus10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(153, 153, 153, .497);
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-right: 25px;
+    width: 200px;
+    line-height: .5;
+}
+
+.buttonDisplay .plus10 h3{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.buttonDisplay .plus10 p{
+    margin-bottom: 15px;
+}
+
+.buttonDisplay .plus10 button{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: .3em 1em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    color: #ffffffde;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.buttonDisplay{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+
